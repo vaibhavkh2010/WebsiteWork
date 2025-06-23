@@ -1,0 +1,121 @@
+body {
+background-color: lightgreen;
+background-size: cover;
+background-position: top;
+background-repeat: no-repeat;
+}
+h2{
+    background-color: #575757;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+p{
+    font-size: 24px;
+}
+
+   /* Reset default margins */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navigation bar container */
+    nav {
+      background-color: #333;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* Logo or brand name */
+    .logo {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    /* Nav links */
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-links li a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      transition: background 0.3s;
+    }
+
+    .nav-links li a:hover {
+      background-color: #575757;
+      border-radius: 5px;
+    }
+
+    /* Responsive for small screens */
+    @media (max-width: 600px) {
+      .nav-links {
+        flex-direction: column;
+        background-color: #333;
+        width: 100%;
+      }
+    }
+     body {
+            font-family: Arial, sans-serif;
+            margin: 0; padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+           
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+            color: rgb(255, 230, 0);
+            text-shadow: 0 0 5px #000000, 0 0 10px #000000;
+
+        }
+        .hero {
+            background-color: #1abc9c;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .portfolio img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+    footer{
+        background-color: #2c3e50;
+      padding:  20px;
+      justify-content: space-between;
+      text-align: center;
+      color: rgb(225 255 255);
+      position:absolute;
+      bottom: 0%;
+      width: 100%;
+       display: flex ;
+        flex-direction: column;
+    }
+        
+      a{
+        color: crimson;
+        text-shadow: 0 0 5pxrgb(255, 255, 255), 0 0 10px #000000;
+        text-align: center;
+      }
